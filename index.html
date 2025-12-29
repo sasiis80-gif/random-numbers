@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Numbers from 0 - 19</h2>
+        <p id="number"></p>
+        <script>
+            var text = " ";
+            var i = 0;
+            //The value of "i" is 0. {let i = 2; //value of "i" is 2 inside the block}    
+             //value of "i" inside the block is 0 not 2.
+            while(i < 20) {
+                text += "<br>The number is " + i;i++;
+            }
+            document.getElementById("number").innerHTML = text;
+        </script>
+    </body>
+</html>
